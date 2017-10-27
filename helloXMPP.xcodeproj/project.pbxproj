@@ -16,6 +16,7 @@
 		04B4D7891FA33A11007E728A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4D7881FA33A11007E728A /* main.m */; };
 		04B4D7931FA33A11007E728A /* helloXMPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4D7921FA33A11007E728A /* helloXMPPTests.m */; };
 		04B4D79E1FA33A11007E728A /* helloXMPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4D79D1FA33A11007E728A /* helloXMPPUITests.m */; };
+		69A2A7A3FA23D0E22591023D /* Pods_helloXMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E493FEE67AA8927BD0C722 /* Pods_helloXMPP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,9 @@
 		04B4D7991FA33A11007E728A /* helloXMPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloXMPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B4D79D1FA33A11007E728A /* helloXMPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloXMPPUITests.m; sourceTree = "<group>"; };
 		04B4D79F1FA33A11007E728A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E493FEE67AA8927BD0C722 /* Pods_helloXMPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helloXMPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B868150D37A601D9A1A5C8DD /* Pods-helloXMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloXMPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-helloXMPP/Pods-helloXMPP.release.xcconfig"; sourceTree = "<group>"; };
+		BC84824B7CE68DD3BBCBD2AB /* Pods-helloXMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloXMPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helloXMPP/Pods-helloXMPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A2A7A3FA23D0E22591023D /* Pods_helloXMPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +104,8 @@
 				04B4D7911FA33A11007E728A /* helloXMPPTests */,
 				04B4D79C1FA33A11007E728A /* helloXMPPUITests */,
 				04B4D7771FA33A11007E728A /* Products */,
+				25BAD59A6F229FF1530DAEA7 /* Pods */,
+				17B6A42EF12D44BF9037DF40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +152,23 @@
 			path = helloXMPPUITests;
 			sourceTree = "<group>";
 		};
+		17B6A42EF12D44BF9037DF40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30E493FEE67AA8927BD0C722 /* Pods_helloXMPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25BAD59A6F229FF1530DAEA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC84824B7CE68DD3BBCBD2AB /* Pods-helloXMPP.debug.xcconfig */,
+				B868150D37A601D9A1A5C8DD /* Pods-helloXMPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B4D7A21FA33A11007E728A /* Build configuration list for PBXNativeTarget "helloXMPP" */;
 			buildPhases = (
+				2DDC4AD5A81B76ECEE98F014 /* [CP] Check Pods Manifest.lock */,
 				04B4D7721FA33A11007E728A /* Sources */,
 				04B4D7731FA33A11007E728A /* Frameworks */,
 				04B4D7741FA33A11007E728A /* Resources */,
+				C785D7EA2CFC06FCC08AA8E3 /* [CP] Embed Pods Frameworks */,
+				D0C4849F49BABFFBF987726A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +299,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DDC4AD5A81B76ECEE98F014 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-helloXMPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C785D7EA2CFC06FCC08AA8E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-helloXMPP/Pods-helloXMPP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPPFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helloXMPP/Pods-helloXMPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C4849F49BABFFBF987726A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helloXMPP/Pods-helloXMPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04B4D7721FA33A11007E728A /* Sources */ = {
@@ -442,6 +529,7 @@
 		};
 		04B4D7A31FA33A11007E728A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC84824B7CE68DD3BBCBD2AB /* Pods-helloXMPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +544,7 @@
 		};
 		04B4D7A41FA33A11007E728A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B868150D37A601D9A1A5C8DD /* Pods-helloXMPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
