@@ -2,8 +2,8 @@
 //  main.m
 //  helloXMPP
 //
-//  Created by mac on 2017/10/27.
-//  Copyright © 2017年 mac. All rights reserved.
+//  Created by longgege on 17/10/27.
+//  Copyright © 2017年 longgege. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
