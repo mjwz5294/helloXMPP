@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040F85101FA36B7400C4B817 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F850F1FA36B7400C4B817 /* LoginVC.m */; };
+		040F85131FA36B8800C4B817 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F85121FA36B8800C4B817 /* RegisterVC.m */; };
+		04B4D77B1FA33A11007E728A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4D77A1FA33A11007E728A /* AppDelegate.m */; };
+		04B4D7811FA33A11007E728A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B4D77F1FA33A11007E728A /* Main.storyboard */; };
+		04B4D7831FA33A11007E728A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B4D7821FA33A11007E728A /* Assets.xcassets */; };
+		04B4D7861FA33A11007E728A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B4D7841FA33A11007E728A /* LaunchScreen.storyboard */; };
+		04B4D7891FA33A11007E728A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4D7881FA33A11007E728A /* main.m */; };
+		04B4D7931FA33A11007E728A /* helloXMPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4D7921FA33A11007E728A /* helloXMPPTests.m */; };
+		04B4D79E1FA33A11007E728A /* helloXMPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4D79D1FA33A11007E728A /* helloXMPPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B4D78F1FA33A11007E728A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B4D76E1FA33A11007E728A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B4D7751FA33A11007E728A;
+			remoteInfo = helloXMPP;
+		};
+		04B4D79A1FA33A11007E728A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B4D76E1FA33A11007E728A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B4D7751FA33A11007E728A;
+			remoteInfo = helloXMPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040F850E1FA36B7400C4B817 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		040F850F1FA36B7400C4B817 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		040F85111FA36B8800C4B817 /* RegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		040F85121FA36B8800C4B817 /* RegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		04B4D7761FA33A11007E728A /* helloXMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloXMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4D7791FA33A11007E728A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B4D77A1FA33A11007E728A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B4D7801FA33A11007E728A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B4D7821FA33A11007E728A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B4D7851FA33A11007E728A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B4D7871FA33A11007E728A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B4D7881FA33A11007E728A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B4D78E1FA33A11007E728A /* helloXMPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloXMPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4D7921FA33A11007E728A /* helloXMPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloXMPPTests.m; sourceTree = "<group>"; };
+		04B4D7941FA33A11007E728A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B4D7991FA33A11007E728A /* helloXMPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloXMPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B4D79D1FA33A11007E728A /* helloXMPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloXMPPUITests.m; sourceTree = "<group>"; };
+		04B4D79F1FA33A11007E728A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B4D7731FA33A11007E728A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4D78B1FA33A11007E728A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4D7961FA33A11007E728A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040F850D1FA36B5500C4B817 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				040F850E1FA36B7400C4B817 /* LoginVC.h */,
+				040F850F1FA36B7400C4B817 /* LoginVC.m */,
+				040F85111FA36B8800C4B817 /* RegisterVC.h */,
+				040F85121FA36B8800C4B817 /* RegisterVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		04B4D76D1FA33A11007E728A = {
+			isa = PBXGroup;
+			children = (
+				04B4D7781FA33A11007E728A /* helloXMPP */,
+				04B4D7911FA33A11007E728A /* helloXMPPTests */,
+				04B4D79C1FA33A11007E728A /* helloXMPPUITests */,
+				04B4D7771FA33A11007E728A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B4D7771FA33A11007E728A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B4D7761FA33A11007E728A /* helloXMPP.app */,
+				04B4D78E1FA33A11007E728A /* helloXMPPTests.xctest */,
+				04B4D7991FA33A11007E728A /* helloXMPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B4D7781FA33A11007E728A /* helloXMPP */ = {
+			isa = PBXGroup;
+			children = (
+				04B4D7791FA33A11007E728A /* AppDelegate.h */,
+				04B4D77A1FA33A11007E728A /* AppDelegate.m */,
+				040F850D1FA36B5500C4B817 /* VC */,
+				04B4D77F1FA33A11007E728A /* Main.storyboard */,
+				04B4D7821FA33A11007E728A /* Assets.xcassets */,
+				04B4D7841FA33A11007E728A /* LaunchScreen.storyboard */,
+				04B4D7871FA33A11007E728A /* Info.plist */,
+				04B4D7881FA33A11007E728A /* main.m */,
+			);
+			path = helloXMPP;
+			sourceTree = "<group>";
+		};
+		04B4D7911FA33A11007E728A /* helloXMPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B4D7921FA33A11007E728A /* helloXMPPTests.m */,
+				04B4D7941FA33A11007E728A /* Info.plist */,
+			);
+			path = helloXMPPTests;
+			sourceTree = "<group>";
+		};
+		04B4D79C1FA33A11007E728A /* helloXMPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B4D79D1FA33A11007E728A /* helloXMPPUITests.m */,
+				04B4D79F1FA33A11007E728A /* Info.plist */,
+			);
+			path = helloXMPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B4D7751FA33A11007E728A /* helloXMPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4D7A21FA33A11007E728A /* Build configuration list for PBXNativeTarget "helloXMPP" */;
+			buildPhases = (
+				04B4D7721FA33A11007E728A /* Sources */,
+				04B4D7731FA33A11007E728A /* Frameworks */,
+				04B4D7741FA33A11007E728A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloXMPP;
+			productName = helloXMPP;
+			productReference = 04B4D7761FA33A11007E728A /* helloXMPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B4D78D1FA33A11007E728A /* helloXMPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4D7A51FA33A11007E728A /* Build configuration list for PBXNativeTarget "helloXMPPTests" */;
+			buildPhases = (
+				04B4D78A1FA33A11007E728A /* Sources */,
+				04B4D78B1FA33A11007E728A /* Frameworks */,
+				04B4D78C1FA33A11007E728A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B4D7901FA33A11007E728A /* PBXTargetDependency */,
+			);
+			name = helloXMPPTests;
+			productName = helloXMPPTests;
+			productReference = 04B4D78E1FA33A11007E728A /* helloXMPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B4D7981FA33A11007E728A /* helloXMPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4D7A81FA33A11007E728A /* Build configuration list for PBXNativeTarget "helloXMPPUITests" */;
+			buildPhases = (
+				04B4D7951FA33A11007E728A /* Sources */,
+				04B4D7961FA33A11007E728A /* Frameworks */,
+				04B4D7971FA33A11007E728A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B4D79B1FA33A11007E728A /* PBXTargetDependency */,
+			);
+			name = helloXMPPUITests;
+			productName = helloXMPPUITests;
+			productReference = 04B4D7991FA33A11007E728A /* helloXMPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B4D76E1FA33A11007E728A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04B4D7751FA33A11007E728A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					04B4D78D1FA33A11007E728A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04B4D7751FA33A11007E728A;
+					};
+					04B4D7981FA33A11007E728A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04B4D7751FA33A11007E728A;
+					};
+				};
+			};
+			buildConfigurationList = 04B4D7711FA33A11007E728A /* Build configuration list for PBXProject "helloXMPP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B4D76D1FA33A11007E728A;
+			productRefGroup = 04B4D7771FA33A11007E728A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B4D7751FA33A11007E728A /* helloXMPP */,
+				04B4D78D1FA33A11007E728A /* helloXMPPTests */,
+				04B4D7981FA33A11007E728A /* helloXMPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B4D7741FA33A11007E728A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4D7861FA33A11007E728A /* LaunchScreen.storyboard in Resources */,
+				04B4D7831FA33A11007E728A /* Assets.xcassets in Resources */,
+				04B4D7811FA33A11007E728A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4D78C1FA33A11007E728A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4D7971FA33A11007E728A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B4D7721FA33A11007E728A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4D7891FA33A11007E728A /* main.m in Sources */,
+				040F85131FA36B8800C4B817 /* RegisterVC.m in Sources */,
+				040F85101FA36B7400C4B817 /* LoginVC.m in Sources */,
+				04B4D77B1FA33A11007E728A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4D78A1FA33A11007E728A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4D7931FA33A11007E728A /* helloXMPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B4D7951FA33A11007E728A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B4D79E1FA33A11007E728A /* helloXMPPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B4D7901FA33A11007E728A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B4D7751FA33A11007E728A /* helloXMPP */;
+			targetProxy = 04B4D78F1FA33A11007E728A /* PBXContainerItemProxy */;
+		};
+		04B4D79B1FA33A11007E728A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B4D7751FA33A11007E728A /* helloXMPP */;
+			targetProxy = 04B4D79A1FA33A11007E728A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B4D77F1FA33A11007E728A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B4D7801FA33A11007E728A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B4D7841FA33A11007E728A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B4D7851FA33A11007E728A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B4D7A01FA33A11007E728A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04B4D7A11FA33A11007E728A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B4D7A31FA33A11007E728A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU5QH7P4TH;
+				INFOPLIST_FILE = helloXMPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = longgege.noteEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B4D7A41FA33A11007E728A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU5QH7P4TH;
+				INFOPLIST_FILE = helloXMPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = longgege.noteEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04B4D7A61FA33A11007E728A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU5QH7P4TH;
+				INFOPLIST_FILE = helloXMPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mjwz5294.helloXMPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/helloXMPP.app/helloXMPP";
+			};
+			name = Debug;
+		};
+		04B4D7A71FA33A11007E728A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU5QH7P4TH;
+				INFOPLIST_FILE = helloXMPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mjwz5294.helloXMPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/helloXMPP.app/helloXMPP";
+			};
+			name = Release;
+		};
+		04B4D7A91FA33A11007E728A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU5QH7P4TH;
+				INFOPLIST_FILE = helloXMPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mjwz5294.helloXMPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = helloXMPP;
+			};
+			name = Debug;
+		};
+		04B4D7AA1FA33A11007E728A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU5QH7P4TH;
+				INFOPLIST_FILE = helloXMPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mjwz5294.helloXMPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = helloXMPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B4D7711FA33A11007E728A /* Build configuration list for PBXProject "helloXMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4D7A01FA33A11007E728A /* Debug */,
+				04B4D7A11FA33A11007E728A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B4D7A21FA33A11007E728A /* Build configuration list for PBXNativeTarget "helloXMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4D7A31FA33A11007E728A /* Debug */,
+				04B4D7A41FA33A11007E728A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B4D7A51FA33A11007E728A /* Build configuration list for PBXNativeTarget "helloXMPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4D7A61FA33A11007E728A /* Debug */,
+				04B4D7A71FA33A11007E728A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B4D7A81FA33A11007E728A /* Build configuration list for PBXNativeTarget "helloXMPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B4D7A91FA33A11007E728A /* Debug */,
+				04B4D7AA1FA33A11007E728A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B4D76E1FA33A11007E728A /* Project object */;
+}
