@@ -17,6 +17,8 @@
 		345713401FA384A00085B71E /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3457133D1FA384A00085B71E /* LoginVC.m */; };
 		345713411FA384A00085B71E /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3457133F1FA384A00085B71E /* RegisterVC.m */; };
 		345713531FA491FB0085B71E /* XMPPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 345713521FA491FB0085B71E /* XMPPTools.m */; };
+		345713561FA4AA5D0085B71E /* RosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345713551FA4AA5D0085B71E /* RosterViewController.m */; };
+		345713591FA4AD5B0085B71E /* 20171028基本结构 in Resources */ = {isa = PBXBuildFile; fileRef = 345713581FA4AD5B0085B71E /* 20171028基本结构 */; };
 		38B94A1E358B7A27DA7CFBB8 /* Pods_helloXMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72F11B30002364400882BC3 /* Pods_helloXMPP.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,9 @@
 		345713501FA491330085B71E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		345713511FA491FB0085B71E /* XMPPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPTools.h; sourceTree = "<group>"; };
 		345713521FA491FB0085B71E /* XMPPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPTools.m; sourceTree = "<group>"; };
+		345713541FA4AA5D0085B71E /* RosterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RosterViewController.h; sourceTree = "<group>"; };
+		345713551FA4AA5D0085B71E /* RosterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RosterViewController.m; sourceTree = "<group>"; };
+		345713581FA4AD5B0085B71E /* 20171028基本结构 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "20171028基本结构"; sourceTree = "<group>"; };
 		7985AD58F87669D1A996A9D0 /* Pods-helloXMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloXMPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helloXMPP/Pods-helloXMPP.debug.xcconfig"; sourceTree = "<group>"; };
 		95A5F1E8D60C77479FD51A13 /* Pods-helloXMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloXMPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-helloXMPP/Pods-helloXMPP.release.xcconfig"; sourceTree = "<group>"; };
 		B72F11B30002364400882BC3 /* Pods_helloXMPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helloXMPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +137,7 @@
 				345713141FA383C80085B71E /* Assets.xcassets */,
 				345713161FA383C80085B71E /* LaunchScreen.storyboard */,
 				345713191FA383C80085B71E /* Info.plist */,
+				345713571FA4AD270085B71E /* note */,
 				345713081FA383C80085B71E /* Supporting Files */,
 			);
 			path = helloXMPP;
@@ -171,6 +177,8 @@
 				3457133D1FA384A00085B71E /* LoginVC.m */,
 				3457133E1FA384A00085B71E /* RegisterVC.h */,
 				3457133F1FA384A00085B71E /* RegisterVC.m */,
+				345713541FA4AA5D0085B71E /* RosterViewController.h */,
+				345713551FA4AA5D0085B71E /* RosterViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -182,6 +190,14 @@
 				345713521FA491FB0085B71E /* XMPPTools.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		345713571FA4AD270085B71E /* note */ = {
+			isa = PBXGroup;
+			children = (
+				345713581FA4AD5B0085B71E /* 20171028基本结构 */,
+			);
+			path = note;
 			sourceTree = "<group>";
 		};
 		E27DE317A4431E6B3D48F60B /* Frameworks */ = {
@@ -306,6 +322,7 @@
 			files = (
 				345713181FA383C80085B71E /* LaunchScreen.storyboard in Resources */,
 				345713151FA383C80085B71E /* Assets.xcassets in Resources */,
+				345713591FA4AD5B0085B71E /* 20171028基本结构 in Resources */,
 				345713131FA383C80085B71E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +411,7 @@
 				3457130D1FA383C80085B71E /* AppDelegate.m in Sources */,
 				345713531FA491FB0085B71E /* XMPPTools.m in Sources */,
 				345713411FA384A00085B71E /* RegisterVC.m in Sources */,
+				345713561FA4AA5D0085B71E /* RosterViewController.m in Sources */,
 				345713401FA384A00085B71E /* LoginVC.m in Sources */,
 				3457130A1FA383C80085B71E /* main.m in Sources */,
 			);

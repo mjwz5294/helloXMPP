@@ -8,6 +8,7 @@
 
 #import "LoginVC.h"
 #import "RegisterVC.h"
+#import "RosterViewController.h"
 
 #import "XMPPTools.h"
 
@@ -47,8 +48,8 @@
 -(void)xmppStreamDidAuthenticate:(XMPPStream *)sender{
     
     NSLog(@"登录成功------%@",sender);
-//    RosterViewController *rvc = [[RosterViewController alloc]init];
-//    [self.navigationController pushViewController:rvc animated:YES];
+    RosterViewController *rvc = [[RosterViewController alloc]init];
+    [self.navigationController pushViewController:rvc animated:YES];
     
 }
 

@@ -1,0 +1,7 @@
+一、参考文档：
+1、http://www.jianshu.com/p/b401ad6ba1a7
+2、http://www.jianshu.com/p/4edbae55a07f
+3、http://www.jianshu.com/p/8894a5a71b70
+二、遇到的问题：
+1、xcode9中用cocoaPods导入XMPP框架，由于最低支持swift3，而XMPP有部分代码是swift2写的，所以编译出问题。果断使用老系统玩。
+2、登录一直提示密码错误，最后发现是domain没写对，需要在openfire中查看。
