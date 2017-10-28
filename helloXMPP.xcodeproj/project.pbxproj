@@ -16,6 +16,7 @@
 		3457132E1FA383C90085B71E /* helloXMPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3457132D1FA383C90085B71E /* helloXMPPUITests.m */; };
 		345713401FA384A00085B71E /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3457133D1FA384A00085B71E /* LoginVC.m */; };
 		345713411FA384A00085B71E /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3457133F1FA384A00085B71E /* RegisterVC.m */; };
+		345713531FA491FB0085B71E /* XMPPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 345713521FA491FB0085B71E /* XMPPTools.m */; };
 		38B94A1E358B7A27DA7CFBB8 /* Pods_helloXMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72F11B30002364400882BC3 /* Pods_helloXMPP.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,8 @@
 		3457133E1FA384A00085B71E /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
 		3457133F1FA384A00085B71E /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
 		345713501FA491330085B71E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		345713511FA491FB0085B71E /* XMPPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPTools.h; sourceTree = "<group>"; };
+		345713521FA491FB0085B71E /* XMPPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPTools.m; sourceTree = "<group>"; };
 		7985AD58F87669D1A996A9D0 /* Pods-helloXMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloXMPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helloXMPP/Pods-helloXMPP.debug.xcconfig"; sourceTree = "<group>"; };
 		95A5F1E8D60C77479FD51A13 /* Pods-helloXMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloXMPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-helloXMPP/Pods-helloXMPP.release.xcconfig"; sourceTree = "<group>"; };
 		B72F11B30002364400882BC3 /* Pods_helloXMPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helloXMPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +178,8 @@
 		3457134C1FA490C00085B71E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				345713511FA491FB0085B71E /* XMPPTools.h */,
+				345713521FA491FB0085B71E /* XMPPTools.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -387,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3457130D1FA383C80085B71E /* AppDelegate.m in Sources */,
+				345713531FA491FB0085B71E /* XMPPTools.m in Sources */,
 				345713411FA384A00085B71E /* RegisterVC.m in Sources */,
 				345713401FA384A00085B71E /* LoginVC.m in Sources */,
 				3457130A1FA383C80085B71E /* main.m in Sources */,

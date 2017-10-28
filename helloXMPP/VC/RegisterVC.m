@@ -7,8 +7,9 @@
 //
 
 #import "RegisterVC.h"
+#import "XMPPTools.h"
 
-@interface RegisterVC ()
+@interface RegisterVC ()<XMPPStreamDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *nameTF;
 @property (weak, nonatomic) IBOutlet UITextField *pwdTF;
 
@@ -19,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[XMPPTools defaultManager].xmppStream addDelegate:self delegateQueue:dispatch_get_main_queue()];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,10 +29,22 @@
 }
 
 - (IBAction)registerBtnTapped:(id)sender {
+    [[XMPPTools defaultManager] registerWithName:self.nameTF.text andPassword:self.pwdTF.text];
 }
 
 - (IBAction)cancelBtnTapped:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+#pragma mark 注册成功执行的方法
+-(void)xmppStreamDidRegister:(XMPPStream *)sender
+{
+    NSLog(@"登录成功------%@",sender);
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)xmppStream:(XMPPStream *)sender didNotRegister:(NSXMLElement *)error{
+    NSLog(@"登录成功------%@",error);
 }
 
 /*
