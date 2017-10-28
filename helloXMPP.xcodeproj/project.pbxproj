@@ -55,6 +55,7 @@
 		3457133D1FA384A00085B71E /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		3457133E1FA384A00085B71E /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
 		3457133F1FA384A00085B71E /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		345713501FA491330085B71E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7985AD58F87669D1A996A9D0 /* Pods-helloXMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloXMPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helloXMPP/Pods-helloXMPP.debug.xcconfig"; sourceTree = "<group>"; };
 		95A5F1E8D60C77479FD51A13 /* Pods-helloXMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloXMPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-helloXMPP/Pods-helloXMPP.release.xcconfig"; sourceTree = "<group>"; };
 		B72F11B30002364400882BC3 /* Pods_helloXMPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helloXMPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +123,7 @@
 			children = (
 				3457130B1FA383C80085B71E /* AppDelegate.h */,
 				3457130C1FA383C80085B71E /* AppDelegate.m */,
+				3457134C1FA490C00085B71E /* Tools */,
 				3457133B1FA384A00085B71E /* VC */,
 				345713111FA383C80085B71E /* Main.storyboard */,
 				345713141FA383C80085B71E /* Assets.xcassets */,
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				345713091FA383C80085B71E /* main.m */,
+				345713501FA491330085B71E /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -167,6 +170,13 @@
 				3457133F1FA384A00085B71E /* RegisterVC.m */,
 			);
 			path = VC;
+			sourceTree = "<group>";
+		};
+		3457134C1FA490C00085B71E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		E27DE317A4431E6B3D48F60B /* Frameworks */ = {
@@ -528,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TU5QH7P4TH;
+				GCC_PREFIX_HEADER = "${SRCROOT}/helloXMPP/PrefixHeader.pch";
 				INFOPLIST_FILE = helloXMPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = longgege.helloXMPP;
@@ -541,6 +552,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TU5QH7P4TH;
+				GCC_PREFIX_HEADER = "${SRCROOT}/helloXMPP/PrefixHeader.pch";
 				INFOPLIST_FILE = helloXMPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = longgege.helloXMPP;
