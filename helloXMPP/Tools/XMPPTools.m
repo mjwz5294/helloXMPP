@@ -67,7 +67,7 @@ typedef NS_ENUM(NSInteger, ConnectServerPurpose)
     // *  创建xmppjid（用户）
     // *  @param NSString 用户名，域名，登录服务器的方式（苹果，安卓等）
     
-    XMPPJID *jid = [XMPPJID jidWithUser:userName domain:@"chenyuan" resource:@"iPhone8"];
+    XMPPJID *jid = [XMPPJID jidWithUser:userName domain:@"longgegedemacbook-pro.local" resource:@"iPhone8"];
     self.xmppStream.myJID = jid;
     //连接到服务器
     [self connectToServer];
@@ -126,7 +126,7 @@ typedef NS_ENUM(NSInteger, ConnectServerPurpose)
     //0.标记连接服务器的目的
     self.connectServerPurposeType = ConnectServerPurposeRegister;
     //1. 创建一个jid
-    XMPPJID *jid = [XMPPJID jidWithUser:userName domain:@"chenyuan" resource:@"iPhone8"];
+    XMPPJID *jid = [XMPPJID jidWithUser:userName domain:@"longgegedemacbook-pro.local" resource:@"iPhone8"];
     //2.将jid绑定到xmppStream
     self.xmppStream.myJID = jid;
     //3.连接到服务器

@@ -39,12 +39,12 @@
 #pragma mark 注册成功执行的方法
 -(void)xmppStreamDidRegister:(XMPPStream *)sender
 {
-    NSLog(@"登录成功------%@",sender);
+    NSLog(@"注册成功------%@",sender);
     [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)xmppStream:(XMPPStream *)sender didNotRegister:(NSXMLElement *)error{
-    NSLog(@"登录成功------%@",error);
+    NSLog(@"注册失败------%@",error);
 }
 
 /*
